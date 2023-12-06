@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "target": "es2016",
@@ -8,5 +7,11 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true
-  }
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ],
 }
