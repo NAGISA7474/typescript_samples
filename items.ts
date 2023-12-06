@@ -1,5 +1,5 @@
 // 配列
-var itemNames = ["コーヒー", "紅茶", "ほうじ茶"];
+var itemNames:string[] = ["コーヒー", "紅茶", "ほうじ茶"];
 console.log(itemNames);
 
 // オブジェクト配列
