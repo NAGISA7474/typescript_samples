@@ -1,4 +1,5 @@
 // データ型に関するモジュール
+
 export type User = {
     id: number;
     name: {

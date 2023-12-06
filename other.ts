@@ -1,4 +1,5 @@
 // union型
+
 var unionData: string | number;
 unionData = "Tokyo";
 unionData = 100;

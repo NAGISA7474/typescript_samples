@@ -10,8 +10,7 @@ import { User } from './types';
 //     id:1,
 //     email: "test@test.com",
 //     isActive: true,
-// }
-
+// }s
 // user.id = 32;
 // user.id = "32";
 

@@ -41,6 +41,7 @@ console.log(filterItems);
 //     return totalPrice;
 // }
 // arrow function
+
 const calculateTotalPrice = (price:number, amount:number): number => {
     var totalPrice = price * amount; 
     return totalPrice;

@@ -21,5 +21,5 @@ function calculate(price: number, amount:number) {
 // run main
 start(handleRandom);
 
-//Unit Test
+// Unit Test
 // handleRandom(1);
