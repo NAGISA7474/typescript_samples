@@ -1,3 +1,7 @@
+// types の Userモジュールを読み込み
+import { User } from './types';
+
+// 型を明示的に定義
 // var user: {
 //     id: number;
 //     email: string;
@@ -12,7 +16,7 @@
 // user.id = "32";
 
 // 型推論で定義
-var user = {
+var user: User = {
     id:1,
     name: {
         first: "Taro",
