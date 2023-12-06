@@ -5,13 +5,17 @@ function handleRandom(count: number) {
 }
 
 // main
-function start(callback) {
+function start(callback: (count:number) => void) {
     var count = 0;
     const timer = setInterval(()=> {
         count++;
         if (count >= 5) clearInterval(timer);
         callback(count);
     }, 1000);
+}
+
+function calculate(price: number, amount:number) {
+    
 }
 
 // run main
