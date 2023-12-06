@@ -1,6 +1,16 @@
 // データ型に関するモジュール
 
-export type User = {
+// export type User = {
+//     id: number;
+//     name: {
+//         first: string;
+//         last: string;
+//     },
+//     email: string;
+//     isActive: boolean;
+// }
+
+export interface User {
     id: number;
     name: {
         first: string;
